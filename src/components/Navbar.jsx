@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../assets/mainLogo.jpeg"
 const Navbar = () => {
   return (
-    <div className='w-[90%] m-auto flex justify-between items-center my-[32px] gap-5 '>
+    <div className='w-[90%] m-auto flex justify-between items-center py-[32px] gap-5 '>
       <div className='w-[191px] h-[39px] overflow-hidden flex items-center'>
         <img src={img} alt="" className='overscroll-contain' />
       </div>
